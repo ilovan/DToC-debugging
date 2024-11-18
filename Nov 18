@@ -1,0 +1,34 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/DH-Bucknell/HUMN100-FA2024/refs/heads/main/DToC/kirkwood.xml"],
+    "documents": "//div[@type='interview']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "indexDocument": "",
+    "editionTitle": "Interviews & Statements",
+    "editionSubtitle": "",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//div",
+                "label": "div"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "Places"
+            },
+            {
+                "xpath": "//orgName",
+                "label": "Organizations"
+            },
+            {
+                "xpath": "//objectName",
+                "label": "Objects"
+            }
+            ]
+            }
+}
