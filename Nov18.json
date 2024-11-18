@@ -1,34 +1,39 @@
 {
-    "inputs": [
-        "https://raw.githubusercontent.com/DH-Bucknell/HUMN100-FA2024/refs/heads/main/DToC/kirkwood.xml"],
-    "documents": "//div[@type='interview']",
+    "editionTitle": "Interviews & Statements",
+    "editionSubtitle": "",
     "ignoreNamespace": true,
-    "documentTitle": "head",
+    "documents": "//div[@type='interview']",
+    "documentContent": "",
+    "documentTitle": "head//text()",
     "documentAuthor": "",
+    "indexDocument": "",
     "documentImages": "",
     "documentNotes": "",
     "documentLinks": "",
-    "indexDocument": "",
-    "editionTitle": "Interviews & Statements",
-    "editionSubtitle": "",
+    "inputs": [
+        "https://raw.githubusercontent.com/DH-Bucknell/HUMN100-FA2024/refs/heads/main/DToC/kirkwood.xml"
+    ],
     "curation": {
         "markup": [
             {
-                "xpath": "//div",
-                "label": "div"
-            },
-            {
-                "xpath": "//placeName",
-                "label": "Places"
+                "xpath": "//objectName",
+                "label": "Objects"
             },
             {
                 "xpath": "//orgName",
                 "label": "Organizations"
             },
             {
-                "xpath": "//objectName",
-                "label": "Objects"
+                "xpath": "//placeName",
+                "label": "Places"
+            },
+            {
+                "xpath": "//div",
+                "label": "div"
             }
-            ]
-            }
+        ],
+        "toc": [
+            "cf99ef200ef38dcd1134469753e9cd625bb383d28e24d5833eb8fe950c46a347"
+        ]
+    }
 }
