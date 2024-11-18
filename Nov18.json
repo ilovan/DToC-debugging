@@ -4,7 +4,7 @@
     "ignoreNamespace": true,
     "documents": "//div[@type='interview']",
     "documentContent": "",
-    "documentTitle": "head//text()",
+    "documentTitle": "head/title",
     "documentAuthor": "",
     "indexDocument": "",
     "documentImages": "",
